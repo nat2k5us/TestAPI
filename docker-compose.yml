@@ -1,0 +1,12 @@
+version: '3.4'
+
+services:
+  tesapi:
+    image: ${DOCKER_REGISTRY-}tesapi
+    build:
+      context: .
+      dockerfile: TesAPI/Dockerfile
+ 
+      
+
+
