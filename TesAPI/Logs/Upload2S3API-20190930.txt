@@ -1,0 +1,4 @@
+2019-09-30T15:55:18.2792640-05:00 0HLQ5T2007ORD:00000001 [INF] Request starting HTTP/1.1 GET https://localhost:5001/api/values   (ca22a1cb)
+2019-09-30T15:55:18.3511570-05:00 0HLQ5T2007ORD:00000001 [INF] Executing endpoint '"TesAPI.Controllers.ValuesController.Get (TesAPI)"' (500cc934)
+2019-09-30T15:55:18.3989920-05:00 0HLQ5T2007ORD:00000001 [INF] Route matched with "{action = \"Get\", controller = \"Values\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[System.String]] Get()" on controller "TesAPI.Controllers.ValuesController" ("TesAPI"). (122b2fdf)
+2019-09-30T15:55:18.4233080-05:00 0HLQ5T2007ORD:00000001 [INF] Executing action method "TesAPI.Controllers.ValuesController.Get (TesAPI)" - Validation state: Valid (dad538d7)
