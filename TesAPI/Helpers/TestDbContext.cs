@@ -34,7 +34,7 @@ namespace TesAPI.Helpers
 
         }
     }
-    public class GraniteDBContextFactory : IDesignTimeDbContextFactory<TestDbContext>
+    public class TestDBContextFactory : IDesignTimeDbContextFactory<TestDbContext>
     {
         public TestDbContext CreateDbContext(string[] args)
         {
