@@ -36,9 +36,9 @@ namespace TesAPI.Helpers
 
         public string GetData()
         {
-            // when the SQL server is in a seperate container the private/public ip needs to be used i.e 192.168.x.x
+            // when the SQL server is in a seperate container the private/public ip needs to be used i.e 192.168.x.x(home) or 10.9.30.x(office)
             //  using (SqlConnection con = new SqlConnection("Data Source=127.0.0.1,1833;Initial Catalog=MyTestDB;User ID=sa;Password=Password12!;"))
-            using (SqlConnection con = new SqlConnection("Data Source=192.168.86.62,1833;Initial Catalog=MyTestDB;User ID=sa;Password=Password12!;"))
+            using (SqlConnection con = new SqlConnection("Data Source=10.9.30.28,1833;Initial Catalog=MyTestDB;User ID=sa;Password=Password12!;"))
             {
                 con.Open();
                 try

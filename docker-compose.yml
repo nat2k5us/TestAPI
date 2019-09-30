@@ -6,7 +6,15 @@ services:
     build:
       context: .
       dockerfile: TesAPI/Dockerfile
- 
+
+  sqlserver:
+        image: microsoft/mssql-server-linux
+        restart: always
+        ports:
+            - 1833:1433
+        environment:
+            - ACCEPT_EULA=Y
+            - SA_PASSWORD=Password12!
       
 
 
